@@ -1,0 +1,25 @@
+# ── Node / Next.js ────────────────────────────────────────────────────────────
+web/node_modules/
+web/.next/
+web/out/
+web/.env
+web/.env.local
+web/.env.*.local
+
+# ── Arduino / ESP32 ───────────────────────────────────────────────────────────
+esp32/**/*.bin
+esp32/**/*.elf
+esp32/**/*.hex
+esp32/**/build/
+esp32/**/.pio/
+
+# ── OS ────────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Editor ────────────────────────────────────────────────────────────────────
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
